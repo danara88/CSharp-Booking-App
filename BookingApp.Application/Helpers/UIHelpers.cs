@@ -47,7 +47,7 @@ namespace BookingApp.Application.Helpers
         public static void PrintMenu()
         {
             var optionsValues = Enum.GetValues(typeof(AppOptionsEnum));
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine();
             Console.WriteLine("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
             Console.WriteLine("^^^^^^^^ BookingApp ^^^^^^^^^^^");
